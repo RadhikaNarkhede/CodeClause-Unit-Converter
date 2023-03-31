@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unit converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+      <div class="image">
+        <div class="image-overlay">
+          <h1><center>The task alloted by @codecaluse</center></h1>
+        </div>
+      </div>
+        <div class="converter-body">
+          
+            <h1 class="converter-title">Unit Converter</h1>
+    
+            <input type="text" placeholder="Input" id="input">
+            <span>=</span>
+            <input type="text" placeholder="Result" id="result">
+    
+    
+            <select  id="inputType">
+                <option value="meter">Meter</option>
+                <option value="kilometer">kilometer</option>
+                <option value="Centimeter">Centimeter</option>
+            </select>
+    
+            <select  id="resultType">
+                <option value="meter">Meter</option>
+                <option value="kilometer">kilometer</option>
+                <option value="Centimeter">Centimeter</option>
+            </select>
+            <br>
+            <br>
+           <style>
+                 button
+                 {
+                   font: size 2rem;
+                   border:none;
+                   outline:none;
+                   padding:10px 12px;
+                   border-radius: 20px;
+                   margin: auto;
+                   display:block;
+                   margin: auto;
+                   background-color: #bb1f1f;
+                   color:white;
+                 }  
+           </style>
+            <button><i class="fa-solid fa-repeat"></i>Unit converter</button>
+            
+    
+    
+        </div>
+    </main>
+	<script src="script.js"></script>
+  </body>
+</html>
